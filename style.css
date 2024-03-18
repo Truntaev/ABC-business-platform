@@ -1,0 +1,487 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.body {
+  width: 100%;
+  height: 100%;
+}
+
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.section_one {
+  width: 100%;
+  height: 100%;
+}
+.header {
+  height: 100px;
+  max-width: 1285px;
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  color: white;
+}
+.nav {
+  width: 970px;
+  display: flex;
+  margin-left: 500px;
+  font-size: 16px;
+}
+.darkened_background {
+  z-index: 100;
+  position: absolute;
+  height: 700px;
+}
+.manager_meeting_photo {
+  z-index: 0;
+  position: absolute;
+  height: 700px;
+}
+.reference {
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.abc_supply_chain_consulting {
+  z-index: 100;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.information {
+  width: auto;
+  height: 140px;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.centr_information {
+  width: 1000px;
+  height: 700px;
+  display: flex;
+  z-index: 100;
+  color: white;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+}
+.perfect_place {
+  color: white;
+  z-index: 100;
+  width: 550px;
+  height: auto;
+  margin-bottom: 20px;
+  font-size: 51px;
+}
+.content {
+  width: 500px;
+  height: 0px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+}
+.info {
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+}
+.info_text {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+
+.get_startet {
+  width: 100px;
+  height: 40px;
+  background-color: #9a762f;
+  border-radius: 6px;
+  margin-bottom: 80px;
+  color: white;
+}
+.people {
+  width: 600px;
+  height: 400px;
+  margin-left: 78%;
+  margin-top: -100px;
+}
+.square {
+  width: 100px;
+  height: 100px;
+  margin-left: 125%;
+}
+.easy {
+  margin-right: 30px;
+  width: 98px;
+  height: 78px;
+}
+.bamc {
+  margin-right: 30px;
+  width: 98px;
+  height: 78px;
+}
+.sudan_pax {
+  margin-right: 30px;
+  width: 98px;
+  height: 78px;
+}
+.small_ellipse {
+  width: 20px;
+  height: 20px;
+}
+.triangle {
+  width: 20px;
+  height: 20px;
+  margin-left: 80px;
+  margin-top: -20px;
+}
+
+.section_two {
+  width: 100%;
+  height: 1150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.background_two {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  left: 0;
+  height: 900px;
+}
+.content_box {
+  text-align: center;
+  justify-content: center;
+  height: 500px;
+}
+.execution {
+  width: 800px;
+  height: 120px;
+  font-size: 38px;
+  line-height: 50px;
+  margin-left: 100px;
+}
+
+.consulting {
+  width: 800px;
+  height: 80px;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.chart {
+  width: 800px;
+  height: 120px;
+  background-color: #fafafa;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+.three_hundred_years {
+  width: 200px;
+  height: 80px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.fourty_years {
+  width: 200px;
+  height: 80px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.ten_billion {
+  width: 200px;
+  height: 80px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.procent {
+  width: 200px;
+  height: 80px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.big_procent {
+  width: 200px;
+  height: 80px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.mini_text {
+  margin-top: 15px;
+  font-size: 13px;
+  margin-left: 30px;
+  text-align: start;
+}
+.rectangle {
+  width: 500px;
+  height: 420px;
+  margin-top: 90px;
+  z-index: 0;
+  position: absolute;
+  display: flex;
+  margin-left: 100px;
+}
+.engineer {
+  width: 560px;
+  height: 420px;
+  margin-left: 50px;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  margin-left: -55px;
+  margin-top: 45px;
+}
+.dark_graphite_background {
+  background-color: #232626;
+  width: 800px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 420px;
+  margin-top: 150px;
+  z-index: 100;
+  position: absolute;
+  border-radius: 8px;
+}
+.broken_lines {
+  color: #3a3611;
+  display: flex;
+  justify-content: end;
+  width: 800px;
+  height: 449px;
+  margin-top: -26rem;
+  margin-left: -30px;
+}
+.redesigning_supply {
+  width: 400px;
+  display: flex;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+.focus {
+  margin-top: 30px;
+  color: #ffffff;
+  width: 360px;
+}
+.tooling {
+  width: 500px;
+  height: 21px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.logistics {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.cost {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.undocumented {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.new_product {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.validation {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.manufacturing {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.bill_of_material {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.service {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.low_volume {
+  width: 500px;
+  height: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.more_pictures {
+  width: 400px;
+  height: 330px;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.section_three {
+  width: 100%;
+  height: 470px;
+}
+.background_three {
+  background-color: #f8f8f8;
+  width: 1290px;
+  height: 450px;
+}
+.name_group {
+  width: 400px;
+  height: 80px;
+  color: #232626;
+  font-size: 29px;
+  display: flex;
+  margin-left: 14rem;
+}
+.left_arrow {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  margin-right: 15px;
+}
+.mini_ellipse {
+  width: 60px;
+  height: 60px;
+}
+.right_arrow {
+  width: 40px;
+  height: 40px;
+}
+.figure {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-left: 37rem;
+  margin-top: -4rem;
+}
+.mini_ellipse {
+  margin-top: -10px;
+}
+.right_arrow {
+  margin-left: -52px;
+}
+.photo_supply_expert {
+  width: auto;
+  height: auto;
+}
+.transportation {
+  width: 220px;
+  height: 250px;
+  padding: 63px 0px;
+}
+.communocation {
+  width: 235px;
+  height: 250px;
+  padding: 63px 0px 63px 20px;
+}
+.sourcing {
+  width: 309px;
+  height: 315px;
+  padding: 0px 0px 22px 0px;
+}
+.supply_chain {
+  width: 235px;
+  height: 250px;
+  padding: 63px 0px 63px 0px;
+}
+.private_equity {
+  width: 235px;
+  height: 250px;
+  padding: 63px 0px 63px 20px;
+}
+
+.section_four {
+  width: auto;
+  height: 1150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.background_four {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+  left: 0;
+  height: 900px;
+}
+.rectangle_two {
+  width: 625px;
+  height: 420px;
+  z-index: 0;
+  position: absolute;
+  display: flex;
+  margin-left: 40rem;
+  margin-top: -3rem;
+}
+.container_operation_port {
+  width: 700px;
+  height: 420px;
+  margin-left: 53rem;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  margin-top: -6rem;
+}
+.line_four {
+  color: #3a3611;
+  width: 900px;
+  height: 550px;
+}
+.dark_group {
+  width: 900px;
+  height: 550px;
+  border-radius: 8px;
+  background-color: #232626;
+  margin-top: 5px;
+  position: absolute;
+  z-index: 100;
+  margin-left: -29rem;
+}
