@@ -120,6 +120,7 @@ html {
   border-radius: 6px;
   margin-bottom: 80px;
   color: white;
+  border: solid #232626
 }
 .people {
   width: 600px;
@@ -129,8 +130,10 @@ html {
 }
 .square {
   width: 100px;
-  height: 100px;
-  margin-left: 125%;
+    height: 100px;
+    margin-left: 79.9rem;
+    position: absolute;
+    margin-bottom: 21rem;
 }
 .easy {
   margin-right: 30px;
@@ -262,16 +265,14 @@ html {
   margin-top: 45px;
 }
 .dark_graphite_background {
-  background-color: #232626;
-  width: 800px;
-  height: 450px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 420px;
-  margin-top: 150px;
-  z-index: 100;
-  position: absolute;
-  border-radius: 8px;
+  width: 870px;
+    height: 550px;
+    z-index: 100;
+    position: absolute;
+    background-color: #232626;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 27rem;
+    margin-top: 6rem;
 }
 .broken_lines {
   color: #3a3611;
@@ -294,75 +295,76 @@ html {
   color: #ffffff;
   width: 360px;
 }
-.tooling {
-  width: 500px;
-  height: 21px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.logistics {
-  width: 500px;
+.mini_gold_ellipse {
+  width: 20px;
   height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.cost {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.undocumented {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.new_product {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.validation {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.manufacturing {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.bill_of_material {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.service {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
-}
-.low_volume {
-  width: 500px;
-  height: 20px;
-  font-size: 15px;
-  margin-bottom: 10px;
 }
 .more_pictures {
-  width: 400px;
+  width: 430px;
   height: 330px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
   margin-left: 30px;
+  text-align: justify;
+  line-height: 29px;
 }
-
+.gold_ellipse_and_text{
+  width: 500px;
+  height: 40px;
+  display: flex;
+}
+.logistics_gold{
+  width: 450px;
+  margin-left: -29px;
+  display: flex;
+}
+.new_suppliers{
+  display: flex;
+  width: 450px;
+  margin-left: -58px;
+}
+.black_magic{
+  display: flex;
+  width: 450px;
+  margin-left: -20.7%;
+}
+.prototyping{
+  display: flex;
+  width: 450px;
+  margin-left: -27.5%;
+}
+.testing{
+  display: flex;
+  width: 450px;
+  margin-left: -34.3%;
+}
+.manufacturing_location{
+  display: flex;
+  width: 480px;
+  margin-left: -41%;
+}
+.localization{
+  display: flex;
+  width: 480px;
+  margin-left: -48%;
+}
+.management{
+  display: flex;
+  width: 480px;
+  margin-left: -55%;
+}
+.mix_product{
+  display: flex;
+  width: 480px;
+  margin-left: -62%;
+}
+.content_text{
+  color: #ffffff;
+    font-size: 14px;
+    width: 485px;
+    margin-left: 20px;
+}
 .section_three {
   width: 100%;
   height: 470px;
@@ -439,7 +441,7 @@ html {
 
 .section_four {
   width: auto;
-  height: 1150px;
+  height: 800px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -472,16 +474,392 @@ html {
 }
 .line_four {
   color: #3a3611;
-  width: 900px;
+  width: 500px;
   height: 550px;
 }
 .dark_group {
-  width: 900px;
+  width: 700px;
   height: 550px;
   border-radius: 8px;
   background-color: #232626;
   margin-top: 5px;
   position: absolute;
   z-index: 100;
-  margin-left: -29rem;
+  margin-left: -21rem;
+  display: flex;
+  padding: 15px 0px 0px 15px
+}
+.manufacturing_migration{
+  width: 450px;
+  height: 100px;
+  font-size: 35px;
+  color: #ffffff;
+  display: flex;
+  text-align: start;
+}
+.text{
+  width: 530px;
+  height: 140px;
+  display: flex;
+    text-align: start;
+    color: white;
+}
+.oem{
+  width: 550px;
+  height: 350px;
+  margin-left: -22rem;
+  margin-top: 9rem;
+}
+.learn_more{
+  width: 130px;
+  height: 50px;
+  background-color: #9A762F;
+  color: white;
+  border-radius: 6px;
+  display: block;
+    margin-top: 20px;
+    border: solid #232626;
+}
+.happy_businnes{
+  width: 1300px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  z-index: 0;
+}
+.rectangle_gold_background{
+  position: absolute;
+  z-index: 100;
+  width: 1300px;
+  height: 350px;
+}
+.text_five{
+  width: 1300px;
+  height: 100px;
+  color: #ffffff;
+  font-size: 35px;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.explore_now{
+  width: 160px;
+  height: 50px;
+  border-radius: 6px;
+  z-index: 100;
+  position: absolute;
+  margin-top: 8rem;
+  color: #9A7530;
+  border: solid #ffffff;
+}
+.rectangle_of_dots{
+  z-index: 100;
+  position: absolute;
+  margin-top: 100px;
+}
+.mini_grey_ellipse{
+  width: 1200px;
+  height: 70px;
+  display: flex;
+justify-content: end;
+
+}
+.small_ellipse_grey{
+  z-index: 100;
+  position: absolute;
+  margin-top: 40px;
+}
+.financial{
+  width: 1300px;
+  height: 800px;
+  margin-top: 23rem;
+
+}
+.gold_big_rectangle_five{
+  width: 500px;
+  height: 420px;
+  margin-left: 10rem;
+  margin-top: 60px;
+  z-index: 0;
+  position: absolute;
+}
+.bussines_team{
+  width: 560px;
+  height: 420px;
+  z-index: 100;
+  position: absolute;
+}
+.dark_group_six{
+  width: 870px;
+  height: 550px;
+  z-index: 100;
+  position: absolute;
+  background-color: #232626;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 27rem;
+  margin-top: 6rem;
+}
+
+.line_six{
+  color: #3a3611;
+  width: 500px;
+  height: 550px;
+}
+.abc_measures_success{
+  width: 730px;
+  color: #9A7530;
+  position: absolute;
+  z-index: 100;
+}
+.our_consultants{
+  width: 400px;
+  color: #9A762F;
+}
+.news_title{
+  width: 1300px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.news{
+  font-size: 35px;
+  margin-left: 15rem;
+}
+.read_news{
+  width: 200px;
+  height: 50px;
+  background-color: #9A762F;
+  border: solid #ffffff;
+  color: white;
+  border-radius: 6px;
+}
+.more_photo{
+  display: flex;
+  width: 1300px;
+}
+.businessman{
+  width: 500px;
+  height: 315px;
+  position: absolute;
+  z-index: 0;
+  margin-right: 30px;
+}
+.china_man{
+  width: 500px;
+  height: 320px;
+  margin-left: 15rem;
+}
+.data{
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  z-index: 100;
+  margin-left: 24rem;
+  margin-top: 1rem;
+}
+.title_gibson{
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 100;
+  margin-top: 11rem;
+  margin-left: 2rem;
+}
+.min_text{
+  width: 480px;
+  height: 46px;
+  font-size: 16px;
+  margin-top: 15rem;
+  margin-left: 2rem;
+  color: #ffffff;
+  position: absolute;
+  z-index: 100;
+}
+.read_more{
+  width: 120px;
+  height: 30px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 17.5rem;
+  margin-left: 2rem;
+}
+.virus{
+  width: 250px;
+  height: 315px;
+  margin-left: 30px;
+}
+.pandemic{
+  width: 250px;
+  height: 315px;
+  margin-left: 30px;
+}
+.last_photo{
+  width: 1400px;
+  height: 800px;
+  margin-top: 100px;
+}
+.conference_room{
+  width: 1400px;
+  height: 1000px;
+  position: absolute;
+  z-index: 0;
+}
+.background_gold{
+  width: 1400px;
+  height: 1000px;
+  position: absolute;
+  z-index: 100;
+}
+.name_group{
+  width: 650px;
+  height: 50px;
+  font-size: 35px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 23.5rem;
+}
+.content_group{
+  width: 680px;
+  height: 81px;
+  font-size: 18px;
+  color: #ffffff;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8rem;
+  margin-left: 22.7rem;
+}
+.big_container{
+  width: 650px;
+  height: 650px;
+  position: absolute;
+  z-index: 100;
+  background-color: #ffffff;
+  display: flex;
+  margin-left: 23.7rem;
+  margin-top: 15rem;
+}
+.name_class{
+  width: 650px;
+  height: 50px;
+  font-size: 19px;
+  margin-top: 3rem;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.left_block{
+  width: 270px;
+  height: 160px;
+  margin-top: 9rem;
+  display: block;
+  margin-left: 4rem;
+}
+.name{
+  width: 250px;
+  height: 45px;
+  margin-bottom: 10px;
+  background-color: #F8F8F8;
+  border-radius: 1px;
+  border: solid #ffffff;
+}
+.last_name{
+  width: 250px;
+  height: 45px;
+  background-color: #F8F8F8;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  border: solid #ffffff;
+}
+.company_name{
+  width: 250px;
+  height: 45px;
+  background-color: #F8F8F8; 
+  border-radius: 1px; 
+  border: solid #F8F8F8;
+}
+.right_block{
+  width: 300px;
+  height: 160px;
+  margin-top: 9rem;
+  display: block;
+}
+.email_address{
+  width: 250px;
+  height: 45px;
+  background-color: #F8F8F8;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  border: solid #ffffff;
+}
+.phone_number{
+  width: 250px;
+  height: 45px;
+  background-color: #F8F8F8;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  border: solid #ffffff;
+}
+.help{
+  width: 250px;
+  height: 45px;
+  background-color: #F8F8F8;
+  border-radius: 1px;
+  border: solid #ffffff;
+}
+.we_help{
+  margin-left: -40px;
+}
+.nothing{
+  display: flex;
+  margin-left: -17rem;
+  align-items: baseline;
+}
+.checkbox{
+  margin-top: 25px;
+}
+.preffered{
+  width: 200px;
+  height: 18px;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+
+
+.comments{
+  width: 520px;
+  height: 140px;
+  margin-left: -17rem;
+  margin-top: 20px;
+}
+.feedback{
+  width: 520px;
+  height: 140px;
+  background-color: #F8F8F8;
+  border: solid #ffffff;
+}
+.submit{
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: #9A762F;
+  color: #ffffff;
+  border: solid #ffffff;
+  margin-top: 40px;
+  margin-left: -17rem;
 }
