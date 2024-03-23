@@ -863,3 +863,6 @@ justify-content: end;
   margin-top: 40px;
   margin-left: -17rem;
 }
+input[type='radio'] {
+  accent-color: #9A762F;
+}
