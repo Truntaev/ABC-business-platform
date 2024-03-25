@@ -9,7 +9,6 @@ html {
 }
 
 .body {
-  
   width: 100%;
   height: 100%;
 }
@@ -21,8 +20,15 @@ html {
 }
 
 .section_one {
-  width: 100%;
-  height: 100%;
+  width: 1400px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  background: url("./img/darkened_background.png"),
+    url("./img/business_team_manager_meetin.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right;
+  margin-left: 20.2rem;
 }
 .header {
   height: 100px;
@@ -44,6 +50,8 @@ html {
   z-index: 100;
   position: absolute;
   height: 700px;
+  display: flex;
+  justify-content: center;
 }
 .manager_meeting_photo {
   z-index: 0;
@@ -55,11 +63,16 @@ html {
   margin-left: 10px;
   margin-right: 10px;
 }
+.abc_logo {
+  display: flex;
+  justify-content: left;
+  width: 1400px;
+}
 .abc_supply_chain_consulting {
   z-index: 100;
   position: absolute;
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 9rem;
 }
 .information {
   width: auto;
@@ -73,7 +86,7 @@ html {
 }
 
 .centr_information {
-  width: 1000px;
+  width: 1400px;
   height: 700px;
   display: flex;
   z-index: 100;
@@ -81,6 +94,7 @@ html {
   position: absolute;
   flex-direction: column;
   justify-content: center;
+  margin-left: 18rem;
 }
 .perfect_place {
   color: white;
@@ -92,9 +106,8 @@ html {
 }
 .content {
   width: 500px;
-  height: 0px;
-  margin-left: 100px;
-  margin-top: 40px;
+  height: 400px;
+  margin-top: 14rem;
 }
 
 .btn {
@@ -121,20 +134,19 @@ html {
   border-radius: 6px;
   margin-bottom: 80px;
   color: white;
-  border: solid #232626
+  border: solid #232626;
 }
 .people {
   width: 600px;
   height: 400px;
-  margin-left: 78%;
-  margin-top: -100px;
+  margin-left: 41rem;
+  margin-top: -20.2rem;
 }
 .square {
   width: 100px;
-    height: 100px;
-    margin-left: 79.9rem;
-    position: absolute;
-    margin-bottom: 21rem;
+  height: 100px;
+  margin-left: 71.9rem;
+  position: absolute;
 }
 .easy {
   margin-right: 30px;
@@ -151,9 +163,17 @@ html {
   width: 98px;
   height: 78px;
 }
+.kokoko {
+  width: 40px;
+  display: flex;
+  margin-left: -6rem;
+  margin-top: -6rem;
+  margin-bottom: 3rem;
+}
 .small_ellipse {
   width: 20px;
   height: 20px;
+  margin-top: 3rem;
 }
 .triangle {
   width: 20px;
@@ -164,7 +184,7 @@ html {
 
 .section_two {
   width: 100%;
-  height: 1150px;
+  height: 1140px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -180,6 +200,7 @@ html {
 .content_box {
   text-align: center;
   justify-content: center;
+  margin-top: 80px;
   height: 500px;
 }
 .execution {
@@ -187,21 +208,19 @@ html {
   height: 120px;
   font-size: 38px;
   line-height: 50px;
-  margin-left: 100px;
+  margin-top: -10px;
 }
 
 .consulting {
   width: 800px;
   height: 80px;
   font-size: 18px;
-  margin-left: 100px;
 }
 
 .chart {
   width: 800px;
   height: 120px;
   background-color: #fafafa;
-  margin-left: 100px;
   display: flex;
   flex-direction: row;
 }
@@ -247,33 +266,33 @@ html {
   text-align: start;
 }
 .rectangle {
-  width: 500px;
-  height: 420px;
-  margin-top: 90px;
+  width: 605px;
+  height: 460px;
+  margin-top: 8rem;
   z-index: 0;
   position: absolute;
   display: flex;
-  margin-left: 100px;
+  margin-left: -4rem;
 }
 .engineer {
-  width: 560px;
+  width: 700px;
   height: 420px;
   margin-left: 50px;
   z-index: 100;
   position: absolute;
   display: flex;
-  margin-left: -55px;
-  margin-top: 45px;
+  margin-left: -19rem;
+  margin-top: 5rem;
 }
 .dark_graphite_background {
-  width: 870px;
-    height: 550px;
-    z-index: 100;
-    position: absolute;
-    background-color: #232626;
-    border-radius: 15px 0px 0px 15px;
-    margin-left: 27rem;
-    margin-top: 6rem;
+  width: 840px;
+  height: 470px;
+  z-index: 100;
+  position: absolute;
+  background-color: #232626;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 16rem;
+  margin-top: 11rem;
 }
 .broken_lines {
   color: #3a3611;
@@ -285,24 +304,28 @@ html {
   margin-left: -30px;
 }
 .redesigning_supply {
-  width: 400px;
+  width: 485px;
   display: flex;
   color: #ffffff;
   margin-top: 30px;
-  margin-left: 70px;
+  margin-left: 32px;
+  font-size: 35px;
 }
 .focus {
-  margin-top: 30px;
+  margin-top: 15px;
   color: #ffffff;
   width: 360px;
+  font-size: 24px;
+  margin-left: 15px;
 }
 .mini_gold_ellipse {
   width: 20px;
   height: 20px;
+  margin-top: 6px;
 }
 .more_pictures {
   width: 430px;
-  height: 330px;
+  height: 30px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
@@ -310,70 +333,64 @@ html {
   text-align: justify;
   line-height: 29px;
 }
-.gold_ellipse_and_text{
+.gold_ellipse_and_text {
   width: 500px;
   height: 40px;
   display: flex;
+  margin-top: 15px;
 }
-.logistics_gold{
+.logistics_gold {
   width: 450px;
-  margin-left: -29px;
   display: flex;
+  margin-top: 15px;
 }
-.new_suppliers{
-  display: flex;
-  width: 450px;
-  margin-left: -58px;
-}
-.black_magic{
+.new_suppliers {
   display: flex;
   width: 450px;
-  margin-left: -20.7%;
 }
-.prototyping{
+.black_magic {
   display: flex;
   width: 450px;
-  margin-left: -27.5%;
 }
-.testing{
+.prototyping {
   display: flex;
   width: 450px;
-  margin-left: -34.3%;
 }
-.manufacturing_location{
+.testing {
+  display: flex;
+  width: 450px;
+}
+.manufacturing_location {
   display: flex;
   width: 480px;
-  margin-left: -41%;
 }
-.localization{
+.localization {
   display: flex;
   width: 480px;
-  margin-left: -48%;
 }
-.management{
+.management {
   display: flex;
   width: 480px;
-  margin-left: -55%;
 }
-.mix_product{
+.mix_product {
   display: flex;
   width: 480px;
-  margin-left: -62%;
 }
-.content_text{
+.content_text {
   color: #ffffff;
-    font-size: 14px;
-    width: 485px;
-    margin-left: 20px;
+  font-size: 14px;
+  width: 485px;
+  margin-left: 20px;
 }
 .section_three {
-  width: 100%;
   height: 470px;
+  display: flex;
+  justify-content: center;
 }
 .background_three {
   background-color: #f8f8f8;
-  width: 1290px;
-  height: 450px;
+  width: 1400px;
+  height: 470px;
 }
 .name_group {
   width: 400px;
@@ -401,8 +418,8 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-left: 37rem;
-  margin-top: -4rem;
+  margin-left: 48rem;
+  margin-top: 3rem;
 }
 .mini_ellipse {
   margin-top: -10px;
@@ -413,36 +430,37 @@ html {
 .photo_supply_expert {
   width: auto;
   height: auto;
+  margin-top: -40px;
 }
 .transportation {
-  width: 220px;
-  height: 250px;
-  padding: 63px 0px;
-}
-.communocation {
-  width: 235px;
-  height: 250px;
-  padding: 63px 0px 63px 20px;
-}
-.sourcing {
-  width: 309px;
-  height: 315px;
-  padding: 0px 0px 22px 0px;
-}
-.supply_chain {
-  width: 235px;
-  height: 250px;
+  width: 228px;
+  height: 280px;
   padding: 63px 0px 63px 0px;
 }
+.communocation {
+  width: 275px;
+  height: 280px;
+  padding: 63px 0px 63px 35px;
+}
+.sourcing {
+  width: 325px;
+  height: 350px;
+  padding: 0px 0px 17px 0px;
+}
+.supply_chain {
+  width: 275px;
+  height: 280px;
+  padding: 63px 30px 63px 0px;
+}
 .private_equity {
-  width: 235px;
-  height: 250px;
-  padding: 63px 0px 63px 20px;
+  width: 215px;
+  height: 280px;
+  padding: 3px 0px 63px 0px;
 }
 
 .section_four {
   width: auto;
-  height: 800px;
+  height: 850px;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -456,41 +474,41 @@ html {
   height: 900px;
 }
 .rectangle_two {
-  width: 625px;
-  height: 420px;
+  width: 605px;
+  height: 460px;
   z-index: 0;
   position: absolute;
   display: flex;
-  margin-left: 40rem;
-  margin-top: -3rem;
+  margin-top: 9rem;
+  margin-left: 25rem;
 }
 .container_operation_port {
   width: 700px;
   height: 420px;
-  margin-left: 53rem;
   z-index: 100;
   position: absolute;
   display: flex;
-  margin-top: -6rem;
+  margin-left: 43.5rem;
+  margin-top: 4.5rem;
 }
 .line_four {
   color: #3a3611;
   width: 500px;
-  height: 550px;
+  height: 470px;
 }
 .dark_group {
-  width: 700px;
-  height: 550px;
+  width: 915px;
+  height: 470px;
   border-radius: 8px;
   background-color: #232626;
-  margin-top: 5px;
+  margin-top: 12rem;
+  margin-right: 29rem;
   position: absolute;
   z-index: 100;
-  margin-left: -21rem;
   display: flex;
-  padding: 15px 0px 0px 15px
+  padding: 15px 0px 0px 15px;
 }
-.manufacturing_migration{
+.manufacturing_migration {
   width: 450px;
   height: 100px;
   font-size: 35px;
@@ -498,43 +516,50 @@ html {
   display: flex;
   text-align: start;
 }
-.text{
+.text {
   width: 530px;
   height: 140px;
   display: flex;
-    text-align: start;
-    color: white;
+  text-align: start;
+  color: white;
 }
-.oem{
+.oem {
   width: 550px;
   height: 350px;
-  margin-left: -22rem;
-  margin-top: 9rem;
+  margin-left: -15rem;
+  margin-top: 5rem;
 }
-.learn_more{
+.learn_more {
   width: 130px;
   height: 50px;
-  background-color: #9A762F;
+  background-color: #9a762f;
   color: white;
   border-radius: 6px;
   display: block;
-    margin-top: 20px;
-    border: solid #232626;
+  margin-top: 20px;
+  border: solid #232626;
 }
-.happy_businnes{
-  width: 1300px;
+.happy_businnes {
+  width: 1400px;
   height: 350px;
   display: flex;
   position: absolute;
   z-index: 0;
+  margin-top: -5rem;
 }
-.rectangle_gold_background{
+.section_five {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+}
+.rectangle_gold_background {
   position: absolute;
   z-index: 100;
-  width: 1300px;
+  width: 1400px;
   height: 350px;
+  margin-top: -5rem;
 }
-.text_five{
+.text_five {
   width: 1300px;
   height: 100px;
   color: #ffffff;
@@ -543,58 +568,58 @@ html {
   position: absolute;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
-.explore_now{
+.explore_now {
   width: 160px;
   height: 50px;
   border-radius: 6px;
   z-index: 100;
   position: absolute;
   margin-top: 8rem;
-  color: #9A7530;
+  color: #9a7530;
   border: solid #ffffff;
 }
-.rectangle_of_dots{
+.rectangle_of_dots {
   z-index: 100;
   position: absolute;
-  margin-top: 100px;
+  margin-right: 82rem;
 }
-.mini_grey_ellipse{
+.mini_grey_ellipse {
   width: 1200px;
   height: 70px;
   display: flex;
-justify-content: end;
-
+  justify-content: end;
+  /* margin-left: 150rem;
+  margin-top: -2rem; */
 }
-.small_ellipse_grey{
+.small_ellipse_grey {
   z-index: 100;
   position: absolute;
-  margin-top: 40px;
 }
-.financial{
-  width: 1300px;
+.financial {
+  width: 1400px;
   height: 800px;
   margin-top: 23rem;
-
+  margin-right: 77rem;
 }
-.gold_big_rectangle_five{
-  width: 500px;
-  height: 420px;
+.gold_big_rectangle_five {
+  width: 605px;
+  height: 460px;
   margin-left: 10rem;
-  margin-top: 60px;
+  margin-top: 40px;
   z-index: 0;
   position: absolute;
 }
-.bussines_team{
-  width: 560px;
+.bussines_team {
+  width: 700px;
   height: 420px;
   z-index: 100;
   position: absolute;
+  margin-left: -3rem;
 }
-.dark_group_six{
-  width: 870px;
-  height: 550px;
+.dark_group_six {
+  width: 915px;
+  height: 470px;
   z-index: 100;
   position: absolute;
   background-color: #232626;
@@ -603,56 +628,74 @@ justify-content: end;
   margin-top: 6rem;
 }
 
-.line_six{
+.line_six {
   color: #3a3611;
-  width: 500px;
-  height: 550px;
-}
-.abc_measures_success{
-  width: 730px;
-  color: #9A7530;
   position: absolute;
-  z-index: 100;
+  width: 915px;
+  height: 470px;
 }
-.our_consultants{
+.abc_measures_success {
+  width: 500px;
+  color: white;
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 4rem;
+  font-size: 33px;
+}
+.our_consultants {
   width: 400px;
-  color: #9A762F;
+  color: white;
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 4rem;
 }
-.news_title{
+.learn_more_two {
+  width: 130px;
+  height: 50px;
+  background-color: #9a762f;
+  color: white;
+  border-radius: 6px;
+  display: block;
+  margin-top: 20px;
+  border: solid #232626;
+  margin-left: 3.8rem;
+}
+
+.news_title {
   width: 1300px;
   height: 80px;
   display: flex;
   justify-content: space-between;
 }
-.news{
+.news {
   font-size: 35px;
   margin-left: 15rem;
 }
-.read_news{
+.read_news {
   width: 200px;
   height: 50px;
-  background-color: #9A762F;
+  background-color: #9a762f;
   border: solid #ffffff;
   color: white;
   border-radius: 6px;
 }
-.more_photo{
+.more_photo {
   display: flex;
   width: 1300px;
 }
-.businessman{
+.businessman {
   width: 500px;
   height: 315px;
   position: absolute;
   z-index: 0;
   margin-right: 30px;
 }
-.china_man{
+.china_man {
   width: 500px;
   height: 320px;
   margin-left: 15rem;
 }
-.data{
+.data {
   width: 90px;
   height: 90px;
   position: absolute;
@@ -660,7 +703,7 @@ justify-content: end;
   margin-left: 24rem;
   margin-top: 1rem;
 }
-.title_gibson{
+.title_gibson {
   width: 400px;
   height: 60px;
   font-size: 25px;
@@ -670,7 +713,7 @@ justify-content: end;
   margin-top: 11rem;
   margin-left: 2rem;
 }
-.min_text{
+.min_text {
   width: 480px;
   height: 46px;
   font-size: 16px;
@@ -680,7 +723,7 @@ justify-content: end;
   position: absolute;
   z-index: 100;
 }
-.read_more{
+.read_more {
   width: 120px;
   height: 30px;
   position: absolute;
@@ -688,46 +731,46 @@ justify-content: end;
   margin-top: 17.5rem;
   margin-left: 2rem;
 }
-.virus{
+.virus {
   width: 250px;
   height: 315px;
   margin-left: 30px;
 }
-.pandemic{
+.pandemic {
   width: 250px;
   height: 315px;
   margin-left: 30px;
 }
-.last_photo{
+.last_photo {
   width: 1400px;
-  height: 800px;
-  margin-top: 100px;
+  height: 1000px;
+  margin-top: 80px;
 }
-.conference_room{
+.conference_room {
   width: 1400px;
   height: 1000px;
   position: absolute;
   z-index: 0;
 }
-.background_gold{
+.background_gold {
   width: 1400px;
   height: 1000px;
   position: absolute;
   z-index: 100;
 }
-.name_group{
+.name_group_one {
   width: 650px;
   height: 50px;
   font-size: 35px;
-  color: #ffffff;
+  color: #232626;
   position: absolute;
   z-index: 100;
   display: flex;
   justify-content: center;
-  margin-top: 80px;
-  margin-left: 23.5rem;
+  margin-top: 20px;
+  margin-left: 10rem;
 }
-.content_group{
+.content_group {
   width: 680px;
   height: 81px;
   font-size: 18px;
@@ -741,7 +784,7 @@ justify-content: end;
   margin-top: 8rem;
   margin-left: 22.7rem;
 }
-.big_container{
+.big_container {
   width: 650px;
   height: 650px;
   position: absolute;
@@ -751,7 +794,7 @@ justify-content: end;
   margin-left: 23.7rem;
   margin-top: 15rem;
 }
-.name_class{
+.name_class {
   width: 650px;
   height: 50px;
   font-size: 19px;
@@ -763,107 +806,184 @@ justify-content: end;
   align-items: center;
   text-align: center;
 }
-.left_block{
+.left_block {
   width: 270px;
   height: 160px;
   margin-top: 9rem;
   display: block;
   margin-left: 4rem;
 }
-.name{
+.name {
   width: 250px;
   height: 45px;
   margin-bottom: 10px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 1px;
   border: solid #ffffff;
 }
-.last_name{
+.last_name {
   width: 250px;
   height: 45px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   margin-bottom: 10px;
   border-radius: 1px;
   border: solid #ffffff;
 }
-.company_name{
+.company_name {
   width: 250px;
   height: 45px;
-  background-color: #F8F8F8; 
-  border-radius: 1px; 
-  border: solid #F8F8F8;
+  background-color: #f8f8f8;
+  border-radius: 1px;
+  border: solid #f8f8f8;
 }
-.right_block{
+.right_block {
   width: 300px;
   height: 160px;
   margin-top: 9rem;
   display: block;
 }
-.email_address{
+.email_address {
   width: 250px;
   height: 45px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   margin-bottom: 10px;
   border-radius: 1px;
   border: solid #ffffff;
 }
-.phone_number{
+.phone_number {
   width: 250px;
   height: 45px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   margin-bottom: 10px;
   border-radius: 1px;
   border: solid #ffffff;
 }
-.help{
+.help {
   width: 250px;
   height: 45px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border-radius: 1px;
   border: solid #ffffff;
 }
-.we_help{
-  margin-left: -40px;
+.we_help {
+  margin-left: -3.5rem;
 }
-.nothing{
+.nothing {
   display: flex;
   margin-left: -17rem;
   align-items: baseline;
 }
-.checkbox{
+.checkbox {
   margin-top: 25px;
 }
-.preffered{
+.preffered {
   width: 200px;
   height: 18px;
   font-size: 15px;
   margin-top: 25px;
+  margin-left: 5px;
 }
 
-
-
-.comments{
+.background_seven {
+  width: 1400px;
+  margin-right: 10rem;
+}
+.section_seven {
+  display: flex;
+  justify-content: center;
+}
+.last_background {
+  display: flex;
+  justify-content: center;
+}
+.comments {
   width: 520px;
   height: 140px;
   margin-left: -17rem;
   margin-top: 20px;
 }
-.feedback{
+.feedback {
   width: 520px;
   height: 140px;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   border: solid #ffffff;
 }
-.submit{
+.submit {
   width: 200px;
   height: 50px;
   border-radius: 6px;
-  background-color: #9A762F;
+  background-color: #9a762f;
   color: #ffffff;
   border: solid #ffffff;
   margin-top: 40px;
   margin-left: -17rem;
 }
-input[type='radio'] {
-  accent-color: #9A762F;
+input[type="radio"] {
+  accent-color: #9a762f;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #232626;
+  max-width: 1400px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.upper_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer_rights {
+  color: white;
+  margin-right: 9rem;
+}
+
+.lower_footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.upper_footer_right {
+  display: flex;
+  align-items: center;
+  margin-left: -10rem;
+}
+
+.footer_info {
+  margin-left: 30px;
+  color: white;
+}
+.facebook {
+  width: 37px;
+  height: 37px;
+}
+.inst {
+  width: 37px;
+  height: 37px;
+}
+.twitter {
+  width: 37px;
+  height: 37px;
+}
+.pinterest {
+  width: 37px;
+  height: 37px;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+  }
+}
+@media screen and (max-width: 1280px) {
+  body {
+  }
 }
