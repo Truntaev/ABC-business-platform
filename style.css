@@ -28,7 +28,6 @@ html {
     url("./img/business_team_manager_meetin.png");
   background-repeat: no-repeat, no-repeat;
   background-position: center;
-  /* margin-left: 20.2rem; */
 }
 .header {
   height: 100px;
@@ -133,7 +132,7 @@ html {
   border-radius: 6px;
   margin-bottom: 80px;
   color: white;
-  border: solid #232626;
+  border: solid 1px #232626;
 }
 .people {
   width: 600px;
@@ -162,7 +161,7 @@ html {
   width: 98px;
   height: 78px;
 }
-.kokoko {
+.min_ellipse {
   width: 40px;
   display: flex;
   margin-left: -6rem;
@@ -182,7 +181,6 @@ html {
 }
 
 .section_two {
-  
   width: 100%;
   height: 1140px;
   display: flex;
@@ -615,16 +613,16 @@ html {
   height: 420px;
   z-index: 100;
   position: absolute;
-  margin-left: -3rem;
+  margin-left: 1rem;
 }
 .dark_group_six {
-  width: 915px;
+  width: 840px;
   height: 470px;
   z-index: 100;
   position: absolute;
   background-color: #232626;
   border-radius: 15px 0px 0px 15px;
-  margin-left: 27rem;
+  margin-left: 36rem;
   margin-top: 6rem;
 }
 
@@ -633,6 +631,7 @@ html {
   position: absolute;
   width: 915px;
   height: 470px;
+  margin-left: -6rem;
 }
 .abc_measures_success {
   width: 500px;
