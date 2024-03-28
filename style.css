@@ -583,12 +583,10 @@ html {
   margin-right: 82rem;
 }
 .mini_grey_ellipse {
-  width: 1200px;
+  width: 1000px;
   height: 70px;
   display: flex;
   justify-content: end;
-  /* margin-left: 150rem;
-  margin-top: -2rem; */
 }
 .small_ellipse_grey {
   z-index: 100;
@@ -688,6 +686,13 @@ html {
   position: absolute;
   z-index: 0;
   margin-right: 30px;
+  border-radius: 8px;
+}
+.translucent_first {
+  position: absolute;
+  z-index: 100;
+  width: 500px;
+  height: 315px;
 }
 .china_man {
   width: 500px;
@@ -722,6 +727,19 @@ html {
   position: absolute;
   z-index: 100;
 }
+.gold_read {
+  position: absolute;
+  z-index: 100;
+  color: #f3c977;
+  margin-top: 17.6rem;
+  margin-left: 2rem;
+}
+.gold_arrow{
+  position: absolute;
+  z-index: 100;
+  margin-top: 17.3rem;
+  margin-left: 6.5rem;
+}
 .read_more {
   width: 120px;
   height: 30px;
@@ -730,15 +748,85 @@ html {
   margin-top: 17.5rem;
   margin-left: 2rem;
 }
+.woman_covid {
+  display: flex;
+  justify-content: end;
+}
 .virus {
   width: 250px;
   height: 315px;
   margin-left: 30px;
+  border-radius: 8px;
+}
+.mar {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.mini_content {
+  width: 200px;
+  height: 68px;
+  position: absolute;
+  z-index: 100;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+  margin-top: 13rem;
+  margin-right: 20px;
+}
+.pandemic_improve {
+  display: flex;
+  justify-content: end;
 }
 .pandemic {
   width: 250px;
   height: 315px;
   margin-left: 30px;
+  border-radius: 8px;
+}
+.translucent {
+  position: absolute;
+  z-index: 100;
+  width: 250px;
+  height: 315px;
+}
+.dates {
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.min_info {
+  width: 155px;
+  height: 68px;
+  position: absolute;
+  z-index: 100;
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: end;
+  margin-top: 13rem;
+  margin-right: 65px;
+}
+.read {
+  position: absolute;
+  z-index: 100;
+  color: white;
+  font-size: 12px;
+  margin-top: 18rem;
+  margin-right: 10rem;
+}
+.mini_arrow {
+  position: absolute;
+  z-index: 100;
+  margin-top: 17.5rem;
+  margin-right: 7.5rem;
+  width: 32px;
+  height: 32px;
 }
 .last_photo {
   width: 1400px;
@@ -768,6 +856,17 @@ html {
   justify-content: center;
   margin-top: 20px;
   margin-left: 10rem;
+}
+.name_group_two {
+  width: 1400px;
+  height: 50px;
+  font-size: 35px;
+  color: white;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
 }
 .content_group {
   width: 680px;
@@ -925,7 +1024,7 @@ input[type="radio"] {
   flex-direction: column;
   justify-content: center;
   background-color: #232626;
-  max-width: 1400px;
+  width: 1400px;
   max-height: 300px;
   margin: 0 auto;
 }
