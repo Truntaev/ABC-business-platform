@@ -275,7 +275,6 @@ html {
 .engineer {
   width: 700px;
   height: 420px;
-  margin-left: 50px;
   z-index: 100;
   position: absolute;
   display: flex;
@@ -428,34 +427,122 @@ html {
 .photo_supply_expert {
   width: auto;
   height: auto;
-  margin-top: -40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.logistics{
+  width: 245px;
+  height: 280px;
+    display: flex;
+  justify-content: start;
 }
 .transportation {
-  width: 228px;
+  width: 245px;
   height: 280px;
-  padding: 63px 0px 63px 0px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.text_transportation{
+  color: #ffffff;
+  width: 258px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 12rem;
+  margin-left: -4rem;
+  position: absolute;
+  z-index: 100;
+}
+.communication_blog{
+  width: 295px;
+  height: 280px;
+  display: flex;
+  margin-right: 20px;
 }
 .communocation {
-  width: 275px;
+  width: 295px;
   height: 280px;
-  padding: 63px 0px 63px 35px;
+  border-radius: 8px;
+}
+.text_communication{
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 12rem;
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 100;
+}
+.infrastructure{
+  width: 315px;
+  height: 280px;
+  display: flex;
+}
+.text_infrastructure{
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 12rem;
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 100;
 }
 .sourcing {
-  width: 325px;
-  height: 350px;
-  padding: 0px 0px 17px 0px;
+  width: 295px;
+  height: 280px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.rectangle_right_arrow{
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  margin-top: 11.7rem;
+  margin-left: 12rem;
+}
+.chain_supply{
+  width: 295px;
+  height: 280px;
+  display: flex;
 }
 .supply_chain {
-  width: 275px;
+  width: 295px;
   height: 280px;
-  padding: 63px 30px 63px 0px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.text_chain{
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 12rem;
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 100;
+}
+.equity_private{
+  width: 230px;
+  height: 280px;
+  display: flex;
 }
 .private_equity {
-  width: 215px;
+  width: 228px;
   height: 280px;
-  padding: 3px 0px 63px 0px;
+  border-radius: 8px;
 }
-
+.text_equity{
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  font-size: 24px;
+  margin-top: 12rem;
+  margin-left: 1rem;
+  position: absolute;
+  z-index: 100;
+}
 .section_four {
   width: auto;
   height: 850px;
@@ -583,10 +670,10 @@ html {
   margin-right: 82rem;
 }
 .mini_grey_ellipse {
-  width: 1000px;
+  width: 1400px;
   height: 70px;
   display: flex;
-  justify-content: end;
+  margin-left: -25rem;
 }
 .small_ellipse_grey {
   z-index: 100;
@@ -596,7 +683,7 @@ html {
   width: 1400px;
   height: 800px;
   margin-top: 23rem;
-  margin-right: 77rem;
+  margin-right: 55rem;
 }
 .gold_big_rectangle_five {
   width: 605px;
@@ -611,16 +698,16 @@ html {
   height: 420px;
   z-index: 100;
   position: absolute;
-  margin-left: 1rem;
+  margin-left: -3.5rem;
 }
 .dark_group_six {
-  width: 840px;
+  width: 800px;
   height: 470px;
   z-index: 100;
   position: absolute;
   background-color: #232626;
   border-radius: 15px 0px 0px 15px;
-  margin-left: 36rem;
+  margin-left: 33.5rem;
   margin-top: 6rem;
 }
 
@@ -629,7 +716,7 @@ html {
   position: absolute;
   width: 915px;
   height: 470px;
-  margin-left: -6rem;
+  margin-left: -7.2rem;
 }
 .abc_measures_success {
   width: 500px;
@@ -734,7 +821,7 @@ html {
   margin-top: 17.6rem;
   margin-left: 2rem;
 }
-.gold_arrow{
+.gold_arrow {
   position: absolute;
   z-index: 100;
   margin-top: 17.3rem;
@@ -965,6 +1052,7 @@ html {
 }
 .we_help {
   margin-left: -3.5rem;
+  width: 32px;
 }
 .nothing {
   display: flex;
@@ -1079,6 +1167,63 @@ input[type="radio"] {
 
 @media screen and (max-width: 1440px) {
   body {
+    .engineer{
+      width: 600px;
+      margin-left: -13rem;
+    }
+    .background_three{
+      margin-left: 40px;
+    }
+    
+    .container_operation_port{
+      width: 680px;
+    }
+    .dark_group{
+      width: 805px;
+      margin-left: 80px;
+    }
+    .line_four{
+      margin-left: -15px;
+    }
+    .rectangle_gold_background{
+      margin-left: 90px;
+      width: 1280px;
+    }
+    .happy_businnes{
+      margin-left: 90px;
+      width: 1280px;
+    }
+    .rectangle_of_dots{
+      margin-left: 205px;
+    }
+    .bussines_team{
+      margin-left: 40px;
+      width: 650px;
+    }
+    .dark_group_six{
+      width: 750px;
+      margin-left: 36.5rem;
+    }
+    .line_six{
+      margin-left: -10.3rem;
+    }
+    .background_gold{
+      width: 1290px;
+      margin-left: 40px;
+    }
+    .triangle_grey{
+      position: absolute;
+      z-index: 100;
+      margin-left: -3rem;
+    }
+    .conference_room{
+      width: 1290px;
+      margin-left: 40px;
+    }
+    .footer{
+      width: 1290px;
+      margin-left: 40px;
+    }
   }
 }
 @media screen and (max-width: 1280px) {
