@@ -15,7 +15,9 @@ html {
   top: 0;
   left: 0;
 }
-.section_one {
+/* Хедер  */
+
+.section_business_promotion {
   max-width: 1400px;
   height: 700px;
   display: flex;
@@ -54,7 +56,7 @@ html {
   position: absolute;
   height: 700px;
 }
-.reference {
+.nav_item {
   color: #ffffff;
   margin-left: 10px;
   margin-right: 10px;
@@ -172,8 +174,10 @@ html {
   margin-left: 80px;
   margin-top: -20px;
 }
+/* Кінець першої секції */
+/* Початок другої секції */
 
-.section_two {
+.section_about_execution_quality {
   width: 100%;
   height: 1140px;
   display: flex;
@@ -371,7 +375,10 @@ html {
   margin-left: 20px;
 }
 
-.section_three {
+/* Кінець другої секції */
+/* Початок третьої секції */
+
+.section_supply_chain {
   height: 470px;
   display: flex;
   justify-content: center;
@@ -535,7 +542,11 @@ html {
   position: absolute;
   z-index: 100;
 }
-.section_four {
+
+/* Кінець третьої секції */
+/* Початок четвертої секції */
+
+.section_about_production_migration {
   width: auto;
   height: 850px;
   display: flex;
@@ -624,7 +635,11 @@ html {
   z-index: 0;
   margin-top: -5rem;
 }
-.section_five {
+
+/* Кінець четвертої секції */
+/* Початок  п'ятої секції */
+
+.section_helping_with_career_growth {
   display: flex;
   justify-content: center;
   height: 1000px;
@@ -1073,10 +1088,18 @@ html {
   width: 1400px;
   margin-right: 10rem;
 }
-.section_seven {
+
+/* Кінець п'ятої секції */
+/* Початок  шостої секції */
+
+.section_news_about_everything {
   display: flex;
   justify-content: center;
 }
+
+/* Кінець шостої секції */
+/* Початок  сьомої секції */
+
 .last_background {
   display: flex;
   justify-content: center;
@@ -1124,25 +1147,21 @@ input[type="radio"] {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-
 .footer_rights {
   color: white;
   margin-right: 9rem;
 }
-
 .lower_footer {
   width: 100%;
   height: 50px;
   display: flex;
   justify-content: space-around;
 }
-
 .upper_footer_right {
   display: flex;
   align-items: center;
   margin-left: -10rem;
 }
-
 .footer_info {
   margin-left: 30px;
   color: white;
@@ -1163,167 +1182,170 @@ input[type="radio"] {
   width: 37px;
   height: 37px;
 }
+.long_line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 1px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+  width: 1065px;
+  margin-left: 10.5rem;
+}
+::placeholder {
+  text-align: start;
+  text-indent: 30px;
+}
 
 @media screen and (max-width: 2048px) {
-  body {
-    .footer {
-      width: 1400px;
-    }
+  .footer {
+    width: 1400px;
   }
 }
-
 @media screen and (max-width: 1440px) {
-  body {
-    .section_one {
-      width: 1300px;
-      margin-left: 105px;
-    }
-    .min_ellipse {
-      margin-left: 2rem;
-    }
-    .perfect_place {
-      margin-left: 9rem;
-    }
-    .info_text {
-      width: 490px;
-      margin-left: 9rem;
-    }
-    .get_startet {
-      margin-left: 9rem;
-    }
-    .many_logos {
-      width: 400px;
-      margin-left: 9rem;
-    }
-    .easy {
-      width: 70px;
-      height: 58px;
-    }
-    .bamc {
-      width: 70px;
-      height: 58px;
-    }
-    .sudan_pax {
-      width: 70px;
-      height: 58px;
-    }
-    .seugtur {
-      width: 70px;
-      height: 58px;
-    }
-    .section_two {
-      width: 1300px;
-      margin-left: 105px;
-    }
-    .engineer {
-      width: 600px;
-      margin-left: -15.5rem;
-    }
-    .dark_graphite_background {
-      margin-left: 13rem;
-    }
-    .section_three {
-      width: 1300px;
-      margin-left: 60px;
-    }
-    .background_three {
-      width: 1300px;
-      margin-left: 90px;
-    }
-    .communocation {
-      width: 260px;
-    }
-    .sourcing {
-      width: 260px;
-    }
-    .supply_chain {
-      width: 260px;
-    }
-    .private_equity {
-      width: 215px;
-    }
-    .section_four {
-      width: 1300px;
-      margin-left: 60px;
-    }
-    .container_operation_port {
-      width: 680px;
-    }
-    .dark_group {
-      width: 805px;
-      margin-left: 80px;
-    }
-    .line_four {
-      margin-left: -15px;
-    }
-    .rectangle_gold_background {
-      margin-left: 90px;
-      width: 1280px;
-    }
-    .section_five {
-      width: 1300px;
-      margin-left: 60px;
-    }
-    .happy_businnes {
-      margin-left: 90px;
-      width: 1280px;
-    }
-    .section_seven {
-      width: 1300px;
-      margin-left: 60px;
-    }
-    .rectangle_of_dots {
-      margin-left: 205px;
-    }
-    .bussines_team {
-      margin-left: 40px;
-      width: 650px;
-    }
-    .dark_group_six {
-      width: 750px;
-      margin-left: 36.5rem;
-    }
-    .line_six {
-      margin-left: -10.3rem;
-    }
-    .background_gold {
-      width: 1290px;
-      margin-left: 40px;
-    }
-    .last_photo {
-      width: 1300px;
-      margin-left: 60px;
-    }
-    .triangle_grey {
-      position: absolute;
-      z-index: 100;
-      margin-left: -3rem;
-    }
-    .conference_room {
-      width: 1290px;
-      margin-left: 40px;
-    }
-    .footer {
-      max-width: 1290px;
-      margin-left: 138px;
-    }
+  .section_one {
+    width: 1300px;
+    margin-left: 105px;
+  }
+  .min_ellipse {
+    margin-left: 2rem;
+  }
+  .perfect_place {
+    margin-left: 9rem;
+  }
+  .info_text {
+    width: 490px;
+    margin-left: 9rem;
+  }
+  .get_startet {
+    margin-left: 9rem;
+  }
+  .many_logos {
+    width: 400px;
+    margin-left: 9rem;
+  }
+  .easy {
+    width: 70px;
+    height: 58px;
+  }
+  .bamc {
+    width: 70px;
+    height: 58px;
+  }
+  .sudan_pax {
+    width: 70px;
+    height: 58px;
+  }
+  .seugtur {
+    width: 70px;
+    height: 58px;
+  }
+  .section_two {
+    width: 1300px;
+    margin-left: 105px;
+  }
+  .engineer {
+    width: 600px;
+    margin-left: -15.5rem;
+  }
+  .dark_graphite_background {
+    margin-left: 13rem;
+  }
+  .section_three {
+    width: 1300px;
+    margin-left: 60px;
+  }
+  .background_three {
+    width: 1300px;
+    margin-left: 90px;
+  }
+  .communocation {
+    width: 260px;
+  }
+  .sourcing {
+    width: 260px;
+  }
+  .supply_chain {
+    width: 260px;
+  }
+  .private_equity {
+    width: 215px;
+  }
+  .section_four {
+    width: 1300px;
+    margin-left: 60px;
+  }
+  .container_operation_port {
+    width: 680px;
+  }
+  .dark_group {
+    width: 805px;
+    margin-left: 80px;
+  }
+  .line_four {
+    margin-left: -15px;
+  }
+  .rectangle_gold_background {
+    margin-left: 90px;
+    width: 1280px;
+  }
+  .section_five {
+    width: 1300px;
+    margin-left: 60px;
+  }
+  .happy_businnes {
+    margin-left: 90px;
+    width: 1280px;
+  }
+  .section_seven {
+    width: 1300px;
+    margin-left: 60px;
+  }
+  .rectangle_of_dots {
+    margin-left: 205px;
+  }
+  .bussines_team {
+    margin-left: 40px;
+    width: 650px;
+  }
+  .dark_group_six {
+    width: 750px;
+    margin-left: 36.5rem;
+  }
+  .line_six {
+    margin-left: -10.3rem;
+  }
+  .background_gold {
+    width: 1290px;
+    margin-left: 40px;
+  }
+  .last_photo {
+    width: 1300px;
+    margin-left: 60px;
+  }
+  .triangle_grey {
+    position: absolute;
+    z-index: 100;
+    margin-left: -3rem;
+  }
+  .conference_room {
+    width: 1290px;
+    margin-left: 40px;
+  }
+  .footer {
+    max-width: 1290px;
+    margin-left: 138px;
   }
 }
-
 @media screen and (max-width: 1426px) {
-  body {
-    .footer {
-      max-width: 1300px;
-      margin-left: 100px;
-    }
+  .footer {
+    max-width: 1300px;
+    margin-left: 100px;
   }
 }
-
 @media screen and (max-width: 1360px) {
-  body {
-    .footer {
-      max-width: 1290px;
-      margin-left: 100px;
-    }
+  .footer {
+    max-width: 1290px;
+    margin-left: 100px;
   }
 }
